@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Exemplo</string>
+    <string name="title_activity_menu">Menu de Activities</string>
+    <string name="title_lista_contatos">Consulta Contatos</string>
+    <string name="title_ciclo_vida">Ciclo de Vida</string>
+    <string name="exemplo_ciclo_de_vida">Veja as chamadas do ciclo de vida no LogCat</string>
+    <string name="title_simple_adapter">Adapter com HashMap</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configuraçoes</string>
+    <string name="title_activity_exemplo_smile_adapter">ExemploSmileAdapter</string>
 </resources>
