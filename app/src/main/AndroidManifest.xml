@@ -9,6 +9,15 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".JanelaComBotao"
+            android:label="@string/title_janela_com_botao" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".ExemploCicloVida"
             android:label="@string/title_ciclo_vida" >
