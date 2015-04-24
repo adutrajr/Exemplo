@@ -19,6 +19,14 @@
         </activity>
 
         <activity
+            android:name=".OutraJanela"
+            android:label="@string/title_outra_janela" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".ExemploCicloVida"
             android:label="@string/title_ciclo_vida" >
             <intent-filter>
