@@ -5,11 +5,10 @@
     <string name="title_ciclo_vida">Ciclo de Vida</string>
     <string name="exemplo_ciclo_de_vida">Veja as chamadas do ciclo de vida no LogCat</string>
     <string name="title_simple_adapter">Adapter com HashMap</string>
-    <string name="title_janela_com_botao">Abrir Activity com Parâmetro</string>
-    <string name="title_outra_janela">Outra Janela</string>
+    <string name="title_janela_com_botao">Abrir outra activity</string>
+    <string name="title_outra_janela">Outra activity</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Configuraçoes</string>
     <string name="title_activity_exemplo_smile_adapter">ExemploSmileAdapter</string>
-
 </resources>
