@@ -2,9 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.com.adrianodutra.exemplo" >
 
-    <uses-permission android:name="android.permission.READ_CONTACTS" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    
+    <uses-permission android:name="android.permission.READ_CONTACTS" /> <!-- ler os contatos do celular -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- utilizar a internet -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- consultar a existencia de conexao com a internet -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Utilizar cache do celular -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- localizar via Wifi ou 3G -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- localizar via GPS -->
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"/> <!-- Nao mostre este aplicativo na loja para aparelhos sem OpenGL ES versao 2.0 no minimo -->
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -28,7 +36,6 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-
 
         <activity
             android:name=".OutraJanela"
@@ -72,6 +79,11 @@
             android:name=".ExemploRoteadorAdapter"
             android:label="@string/title_activity_exemplo_smile_adapter" >
         </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBDLJiUB8Cv34FKtd29CLttVpSPfhT-hz8" />
+
     </application>
 
 </manifest>
