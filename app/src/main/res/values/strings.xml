@@ -7,6 +7,7 @@
     <string name="title_simple_adapter">Adapter com HashMap</string>
     <string name="title_janela_com_botao">Abrir outra activity</string>
     <string name="title_outra_janela">Outra activity</string>
+    <string name="title_exemplo_mapa">Exemplo Google Maps</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Configuraçoes</string>
