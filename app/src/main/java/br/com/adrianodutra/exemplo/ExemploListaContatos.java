@@ -1,6 +1,8 @@
 package br.com.adrianodutra.exemplo;
 
 import android.app.ListActivity;
+import android.app.LoaderManager;
+import android.content.Loader;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
@@ -18,8 +20,8 @@ public class ExemploListaContatos extends ListActivity {
 
     private ListAdapter adaptador;
 
-    public void onCreate(Bundle icicle){
-        super.onCreate(icicle);
+    public void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
 
         //setContentView(R.layout.layout_list_view_contatos);
 
@@ -46,4 +48,5 @@ public class ExemploListaContatos extends ListActivity {
 
         Toast.makeText(this, "Contato Selecionado: " + nome, Toast.LENGTH_SHORT).show();
     }
+
 }
