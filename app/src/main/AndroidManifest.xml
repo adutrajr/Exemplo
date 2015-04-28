@@ -75,9 +75,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".ExemploRoteadorAdapter"
             android:label="@string/title_activity_exemplo_smile_adapter" >
+        </activity>
+
+        <activity
+            android:name=".ExemploLoader"
+            android:label="@string/title_activity_exemplo_loader" >
         </activity>
 
         <meta-data

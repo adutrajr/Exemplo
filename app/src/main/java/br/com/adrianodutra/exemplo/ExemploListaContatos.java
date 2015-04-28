@@ -32,7 +32,7 @@ public class ExemploListaContatos extends ListActivity {
         String[] colunas = new String[]{ContactsContract.Contacts.DISPLAY_NAME};
         int[] campos = new int[]{R.id.nome};
 
-        adaptador = new SimpleCursorAdapter(this, R.layout.layout_contatos, c, colunas, campos);
+        adaptador = new SimpleCursorAdapter(this, R.layout.layout_contatos, c, colunas, campos, 0b0);
         setListAdapter(adaptador);
 
     }
