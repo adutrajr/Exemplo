@@ -12,7 +12,16 @@ import android.widget.ListView;
 
 public class MenuOpcoes extends ListActivity {
 
-    private static final String[] nomes = new String[] {"Ciclo de Vida","Invocar Janela","Consulta Contatos","Adapter com HashMap","Cursor Customizado - Roteador","Google Maps","Utilizando Loader", "Sair"};
+    private static final String[] nomes = new String[] {"Ciclo de Vida",
+                                                        "Invocar Janela",
+                                                        "Consulta Contatos",
+                                                        "Adapter com HashMap",
+                                                        "Cursor Customizado - Roteador",
+                                                        "Google Maps",
+                                                        "Utilizando Loader",
+                                                        "Consultando uma URI",
+                                                        "Invocando Parametros",
+                                                        "Sair"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +39,8 @@ public class MenuOpcoes extends ListActivity {
             case 4: startActivity(new Intent(this, ExemploRoteadorAdapter.class)); break;
             case 5: startActivity(new Intent(this, ExemploMapa.class)); break;
             case 6: startActivity(new Intent(this, ExemploLoader.class)); break;
+            case 7: startActivity(new Intent(this, VisualizarTodosContatos.class)); break;
+            case 8: startActivity(new Intent(this, InvocaExemploSimNao.class)); break;
             default: finish();
         }
     }

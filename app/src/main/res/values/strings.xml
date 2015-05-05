@@ -9,7 +9,9 @@
     <string name="title_outra_janela">Outra activity</string>
     <string name="title_exemplo_mapa">Exemplo Google Maps</string>
     <string name="title_activity_exemplo_loader">Utilizando Loaders</string>
-
+    <string name="title_activity_visualizar_todos_contatos">Visualizar Todos Contatos</string>
+    <string name="title_activity_tela_exemplo_sim_nao">Envia Resposta para a Primeira Activity</string>
+    <string name="title_activity_tela_invoca_exemplo_sim_nao">Invocar Activity e Receber Resposta</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Configuraçoes</string>
     <string name="title_activity_exemplo_smile_adapter">ExemploSmileAdapter</string>

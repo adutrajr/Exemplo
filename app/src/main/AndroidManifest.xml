@@ -86,6 +86,21 @@
             android:label="@string/title_activity_exemplo_loader" >
         </activity>
 
+        <activity
+            android:name=".VisualizarTodosContatos"
+            android:label="@string/title_activity_visualizar_todos_contatos" >
+        </activity>
+
+        <activity
+            android:name=".ExemploTelaSimNao"
+            android:label="@string/title_activity_tela_exemplo_sim_nao" >
+        </activity>
+
+        <activity
+            android:name=".InvocaExemploSimNao"
+            android:label="@string/title_activity_tela_invoca_exemplo_sim_nao" >
+        </activity>
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBDLJiUB8Cv34FKtd29CLttVpSPfhT-hz8" />
