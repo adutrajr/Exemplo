@@ -21,6 +21,8 @@ public class MenuOpcoes extends ListActivity {
                                                         "Utilizando Loader",
                                                         "Consultando uma URI",
                                                         "Invocando Parametros",
+                                                        "Montando layouts Linear com API",
+                                                        "Montando layouts Table com API",
                                                         "Sair"};
 
     @Override
@@ -41,6 +43,8 @@ public class MenuOpcoes extends ListActivity {
             case 6: startActivity(new Intent(this, ExemploLoader.class)); break;
             case 7: startActivity(new Intent(this, VisualizarTodosContatos.class)); break;
             case 8: startActivity(new Intent(this, InvocaExemploSimNao.class)); break;
+            case 9: startActivity(new Intent(this, ExemploLinearLayoutApi.class)); break;
+            case 10: startActivity(new Intent(this, ExemploTableLayoutApi.class)); break;
             default: finish();
         }
     }

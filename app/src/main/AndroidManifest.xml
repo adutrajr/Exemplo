@@ -52,6 +52,23 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".ExemploLinearLayoutApi"
+            android:label="@string/title_linear_layout_api" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ExemploTableLayoutApi"
+            android:label="@string/title_table_layout_api" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".ExemploListaContatos"
             android:label="@string/title_lista_contatos" >
