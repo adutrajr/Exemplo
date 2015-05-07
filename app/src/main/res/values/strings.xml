@@ -14,6 +14,7 @@
     <string name="title_activity_tela_invoca_exemplo_sim_nao">Invocar Activity e Receber Resposta</string>
     <string name="title_linear_layout_api">Montando Layout Linear com a API</string>
     <string name="title_table_layout_api">Montando Layout Table com a API</string>
+    <string name="title_scroll_view">Exemplo com ScrollView</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Configuraçoes</string>

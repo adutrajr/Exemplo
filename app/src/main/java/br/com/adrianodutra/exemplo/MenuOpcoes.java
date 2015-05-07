@@ -23,6 +23,7 @@ public class MenuOpcoes extends ListActivity {
                                                         "Invocando Parametros",
                                                         "Montando layouts Linear com API",
                                                         "Montando layouts Table com API",
+                                                        "Exemplo com ScrollView",
                                                         "Sair"};
 
     @Override
@@ -45,6 +46,7 @@ public class MenuOpcoes extends ListActivity {
             case 8: startActivity(new Intent(this, InvocaExemploSimNao.class)); break;
             case 9: startActivity(new Intent(this, ExemploLinearLayoutApi.class)); break;
             case 10: startActivity(new Intent(this, ExemploTableLayoutApi.class)); break;
+            case 11: startActivity(new Intent(this, ExemploScrollView.class)); break;
             default: finish();
         }
     }

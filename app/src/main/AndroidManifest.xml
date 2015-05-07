@@ -83,6 +83,15 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".ExemploScrollView"
+            android:label="@string/title_scroll_view" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".MenuOpcoes"
             android:label="@string/title_activity_menu" >
