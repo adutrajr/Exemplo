@@ -18,6 +18,7 @@
     <string name="title_grid_view">Exemplo com GridView</string>
     <string name="title_gallery_view">Exemplo com Gallery (deprecated)</string>
     <string name="title_web_view">Exemplo com WebView</string>
+    <string name="title_tab_host">Exemplo utilizando Tabs</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Configuraçoes</string>

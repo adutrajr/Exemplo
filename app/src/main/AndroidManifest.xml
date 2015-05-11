@@ -109,6 +109,14 @@
         </activity>
 
         <activity
+            android:name=".ExemploTabHost"
+            android:label="@string/title_tab_host" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".ExemploGallery"
             android:label="@string/title_gallery_view" >
             <intent-filter>

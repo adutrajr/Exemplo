@@ -53,6 +53,7 @@ public class MenuOpcoes extends ListActivity {
             case 12: startActivity(new Intent(this, ExemploGridView.class)); break;
             case 13: startActivity(new Intent(this, ExemploGallery.class)); break;
             case 14: startActivity(new Intent(this, ExemploWebView.class)); break;
+            case 15: startActivity(new Intent(this, ExemploTabHost.class)); break;
             default: finish();
         }
     }

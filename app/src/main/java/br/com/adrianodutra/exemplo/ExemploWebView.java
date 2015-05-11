@@ -1,6 +1,7 @@
 package br.com.adrianodutra.exemplo;
 
 import android.app.Activity;
+import android.os.Build;
 import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -16,7 +17,9 @@ public class ExemploWebView extends Activity {
 
         WebView web = new WebView(this);
         WebSettings settings = web.getSettings();
-        settings.setSavePassword(false);
+        if (Build.VERSION.SDK_INT <= 18) {
+            settings.setSavePassword(false);
+        }
         settings.setSaveFormData(false);
         settings.setJavaScriptEnabled(true);
         settings.setSupportZoom(false);
