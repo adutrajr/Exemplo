@@ -93,6 +93,30 @@
         </activity>
 
         <activity
+            android:name=".ExemploGridView"
+            android:label="@string/title_grid_view" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ExemploWebView"
+            android:label="@string/title_web_view" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ExemploGallery"
+            android:label="@string/title_gallery_view" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".MenuOpcoes"
             android:label="@string/title_activity_menu" >
             <intent-filter>

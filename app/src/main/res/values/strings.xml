@@ -15,6 +15,9 @@
     <string name="title_linear_layout_api">Montando Layout Linear com a API</string>
     <string name="title_table_layout_api">Montando Layout Table com a API</string>
     <string name="title_scroll_view">Exemplo com ScrollView</string>
+    <string name="title_grid_view">Exemplo com GridView</string>
+    <string name="title_gallery_view">Exemplo com Gallery (deprecated)</string>
+    <string name="title_web_view">Exemplo com WebView</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Configuraçoes</string>

@@ -24,6 +24,9 @@ public class MenuOpcoes extends ListActivity {
                                                         "Montando layouts Linear com API",
                                                         "Montando layouts Table com API",
                                                         "Exemplo com ScrollView",
+                                                        "Exemplo com GridView",
+                                                        "Exemplo com Gallery",
+                                                        "Exemplo com WebView",
                                                         "Sair"};
 
     @Override
@@ -47,6 +50,9 @@ public class MenuOpcoes extends ListActivity {
             case 9: startActivity(new Intent(this, ExemploLinearLayoutApi.class)); break;
             case 10: startActivity(new Intent(this, ExemploTableLayoutApi.class)); break;
             case 11: startActivity(new Intent(this, ExemploScrollView.class)); break;
+            case 12: startActivity(new Intent(this, ExemploGridView.class)); break;
+            case 13: startActivity(new Intent(this, ExemploGallery.class)); break;
+            case 14: startActivity(new Intent(this, ExemploWebView.class)); break;
             default: finish();
         }
     }
