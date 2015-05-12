@@ -23,7 +23,7 @@ public class TabFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle icicle){
-        View v = inflater.inflate(R.layout.exemplo_tab_fragment, null);
+        View v = inflater.inflate(R.layout.exemplo_tab_fragment, container, false);
         TextView t = (TextView) v.findViewById(R.id.msgFragment);
         t.setText("Tab: " + indice);
 
