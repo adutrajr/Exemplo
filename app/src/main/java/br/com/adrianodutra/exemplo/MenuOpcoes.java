@@ -27,6 +27,7 @@ public class MenuOpcoes extends ListActivity {
                                                         "Exemplo com GridView",
                                                         "Exemplo com Gallery",
                                                         "Exemplo com WebView",
+                                                        "Exemplo com ActionBar",
                                                         "Sair"};
 
     @Override
