@@ -29,8 +29,9 @@ public class MenuOpcoes extends ListActivity {
                                                         "Exemplo com WebView",
                                                         "Exemplo com ActionBar (deprecated)",
                                                         "Exemplo Texto, Cores e Estilo",
-                                                        "Exemplo Auto Complete",
+                                                        "Exemplo Componentes de Formulario",
                                                         "Exemplo Progress Bar",
+                                                        "Exemplo Janelas de Alerta",
                                                         "Sair"};
 
     @Override
@@ -61,6 +62,7 @@ public class MenuOpcoes extends ListActivity {
             case 16: startActivity(new Intent(this, ExemploTextoCores.class)); break;
             case 17: startActivity(new Intent(this, ExemploAutoComplete.class)); break;
             case 18: startActivity(new Intent(this, ExemploProgressBar.class)); break;
+            case 19: startActivity(new Intent(this, ExemploJanelasDeAlerta.class)); break;
             default: finish();
         }
     }
