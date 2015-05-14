@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exemplo de Barra de Progresso"/>
+
+    <Button android:id="@+id/botaoExemploProgresso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exemplo de Barra de Progresso" />
+
+    <ProgressBar
+        android:id="@+id/bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:max="100"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite a URL da imagem a ser buscada"/>
+
+    <EditText
+        android:id="@+id/urlImagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button android:id="@+id/botaoBarraDeProgresso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Imagem" />
+
+    <ImageView
+        android:id="@+id/wallPaper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -19,8 +19,12 @@
     <string name="title_gallery_view">Exemplo com Gallery (deprecated)</string>
     <string name="title_web_view">Exemplo com WebView</string>
     <string name="title_tab_host">Exemplo utilizando Tabs</string>
+    <string name="title_texto_cores">Exemplo Texto, Cores e Estilo</string>
+    <string name="title_auto_complete">Exemplo de Formulario</string>
+    <string name="title_progress_bar">Exemplo de Barra de Progresso</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="texto_select">Selecione..</string>
     <string name="action_settings">Configuraçoes</string>
     <string name="title_activity_exemplo_smile_adapter">ExemploSmileAdapter</string>
 </resources>

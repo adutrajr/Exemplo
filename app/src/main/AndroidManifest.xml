@@ -127,6 +127,30 @@
         </activity>
 
         <activity
+            android:name=".ExemploTextoCores"
+            android:label="@string/title_texto_cores" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ExemploAutoComplete"
+            android:label="@string/title_auto_complete" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ExemploProgressBar"
+            android:label="@string/title_progress_bar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".MenuOpcoes"
             android:label="@string/title_activity_menu" >
             <intent-filter>

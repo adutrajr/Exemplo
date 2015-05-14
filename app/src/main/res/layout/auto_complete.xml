@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione um Estado"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/estados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Estados..."
+        android:completionThreshold="1"
+        android:completionHint="Digite o nome de um estado" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:src="@drawable/down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/receberEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receber Email: "/>
+
+    <CheckBox
+        android:id="@+id/checkImagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox com imagens: "
+        style="?android:attr/starStyle"/>
+
+    <ToggleButton
+        android:id="@+id/toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="Ligado"
+        android:textOff="Desligado"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radioSim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sim"
+                android:checked="false" />
+            <RadioButton
+                android:id="@+id/radioNao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nao"
+                android:checked="true" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/selectImagens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/texto_select" />
+
+    <ImageView
+        android:id="@+id/imgSelected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"/>
+
+</LinearLayout>
