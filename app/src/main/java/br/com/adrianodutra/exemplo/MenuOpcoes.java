@@ -32,6 +32,7 @@ public class MenuOpcoes extends ListActivity {
                                                         "Exemplo Componentes de Formulario",
                                                         "Exemplo Progress Bar",
                                                         "Exemplo Janelas de Alerta",
+                                                        "Exemplo Custom ListView",
                                                         "Sair"};
 
     @Override
@@ -63,6 +64,7 @@ public class MenuOpcoes extends ListActivity {
             case 17: startActivity(new Intent(this, ExemploAutoComplete.class)); break;
             case 18: startActivity(new Intent(this, ExemploProgressBar.class)); break;
             case 19: startActivity(new Intent(this, ExemploJanelasDeAlerta.class)); break;
+            case 20: startActivity(new Intent(this, ExemploListView.class)); break;
             default: finish();
         }
     }

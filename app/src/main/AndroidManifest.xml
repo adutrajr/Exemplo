@@ -159,6 +159,14 @@
         </activity>
 
         <activity
+            android:name=".ExemploListView"
+            android:label="@string/title_list_view" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".MenuOpcoes"
             android:label="@string/title_activity_menu" >
             <intent-filter>
