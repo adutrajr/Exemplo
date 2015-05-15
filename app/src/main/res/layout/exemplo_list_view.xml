@@ -9,10 +9,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <View
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:background="#cccccc">
-            <ListView android:id="@+id/customListView" android:minWidth="200dip" android:minHeight="200dip" android:background="#000000"/>
-    </View>
+
+        <ListView android:id="@+id/customListView" android:minWidth="200dip" android:minHeight="200dip" android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
 </LinearLayout>
