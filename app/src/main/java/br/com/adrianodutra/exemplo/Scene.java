@@ -22,7 +22,7 @@ public class Scene extends View {
     public Scene(Context ctx, AttributeSet attrs){
         super(ctx, attrs);
 
-        setBackgroundResource(R.drawable.background);
+        setBackgroundResource(R.drawable.logo);
 
         img = ctx.getResources().getDrawable(R.drawable.smile);
 
