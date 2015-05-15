@@ -24,6 +24,8 @@
     <string name="title_progress_bar">Exemplo de Barra de Progresso</string>
     <string name="title_janelas_de_alerta">Exemplos de Janelas de Alerta</string>
     <string name="title_list_view">Custom ListView</string>
+    <string name="title_exemplo_canvas">Desenhando com Canvas</string>
+    <string name="title_exemplo_canvas_controle">Controlando Posiçao da Imagem</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="texto_select">Selecione..</string>

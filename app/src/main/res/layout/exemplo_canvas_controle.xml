@@ -5,14 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:src="@drawable/logo"
+    <br.com.adrianodutra.exemplo.Scene
+        android:id="@+id/scene"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-
-
-        <ListView android:id="@+id/customListView" android:minWidth="200dip" android:minHeight="200dip" android:background="#000000"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
 
 </LinearLayout>

@@ -33,6 +33,8 @@ public class MenuOpcoes extends ListActivity {
                                                         "Exemplo Progress Bar",
                                                         "Exemplo Janelas de Alerta",
                                                         "Exemplo Custom ListView",
+                                                        "Exemplo com Canvas",
+                                                        "Controlar imagem no Canvas",
                                                         "Sair"};
 
     @Override
@@ -65,6 +67,8 @@ public class MenuOpcoes extends ListActivity {
             case 18: startActivity(new Intent(this, ExemploProgressBar.class)); break;
             case 19: startActivity(new Intent(this, ExemploJanelasDeAlerta.class)); break;
             case 20: startActivity(new Intent(this, ExemploListView.class)); break;
+            case 21: startActivity(new Intent(this, ExemploCanvas.class)); break;
+            case 22: startActivity(new Intent(this, ExemploCanvasControle.class)); break;
             default: finish();
         }
     }

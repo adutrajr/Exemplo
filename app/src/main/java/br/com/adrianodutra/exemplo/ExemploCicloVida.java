@@ -1,15 +1,22 @@
 package br.com.adrianodutra.exemplo;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * Created by adriano.dutra on 22/04/15.
  */
-public class ExemploCicloVida extends ActionBarActivity {
+public class ExemploCicloVida extends Activity implements TextWatcher {
 
     private static final String CATEGORIA = "exemplo";
 
@@ -17,6 +24,10 @@ public class ExemploCicloVida extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_exemplo_ciclo_vida);
+
+        NumericEdit edit = (NumericEdit) findViewById(R.id.numerico);
+        edit.addTextChangedListener(this);
+
         Log.i(CATEGORIA, getClassName() + " onCreate() chamado.");
     }
 
@@ -75,5 +86,22 @@ public class ExemploCicloVida extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+    }
+
+    @Override
+    public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+    }
+
+    @Override
+    public void afterTextChanged(Editable s) {
+        Log.i(CATEGORIA, "Texto: " + s.toString());
+        TextView t = (TextView) findViewById(R.id.copiaDoTexto);
+        t.setText(s.toString());
     }
 }
