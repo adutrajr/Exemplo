@@ -35,6 +35,7 @@ public class MenuOpcoes extends ListActivity {
                                                         "Exemplo Custom ListView",
                                                         "Exemplo com Canvas",
                                                         "Controlar imagem no Canvas",
+                                                        "Eventos de toque na tela",
                                                         "Sair"};
 
     @Override
@@ -69,6 +70,7 @@ public class MenuOpcoes extends ListActivity {
             case 20: startActivity(new Intent(this, ExemploListView.class)); break;
             case 21: startActivity(new Intent(this, ExemploCanvas.class)); break;
             case 22: startActivity(new Intent(this, ExemploCanvasControle.class)); break;
+            case 23: startActivity(new Intent(this, ExemploTouchScreen.class)); break;
             default: finish();
         }
     }

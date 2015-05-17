@@ -95,6 +95,14 @@
         </activity>
 
         <activity
+            android:name=".ExemploTouchScreen"
+            android:label="@string/title_exemplo_touch_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".ExemploGridView"
             android:label="@string/title_grid_view" >
             <intent-filter>

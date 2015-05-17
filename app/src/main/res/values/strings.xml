@@ -26,6 +26,7 @@
     <string name="title_list_view">Custom ListView</string>
     <string name="title_exemplo_canvas">Desenhando com Canvas</string>
     <string name="title_exemplo_canvas_controle">Controlando Posiçao da Imagem</string>
+    <string name="title_exemplo_touch_screen">Reconhecendo eventos de toque na tela</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="texto_select">Selecione..</string>
